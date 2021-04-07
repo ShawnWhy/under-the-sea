@@ -1,0 +1,125 @@
+body{
+    overflow: hidden;
+}
+
+
+.water{ 
+    position:absolute;
+    height:400%;
+    width:100%;
+    background-color: aquamarine;
+}
+
+.jellyfish{
+    position:absolute;
+
+
+}
+
+.jellyfishhead{
+    width:300px;
+    height:100px;
+    overflow: hidden;
+    position:absolute;
+    background-color: rgb(245, 114, 234);
+    border-radius:80px 80px 20px 20px;
+    align-items: center;
+    z-index:2
+}
+
+.roll1{
+
+    width:100%;
+    margin:auto;
+    margin-top:20px;
+
+
+
+}
+
+.roll2{
+    margin:auto;
+
+    margin-top:50px;
+    width:100%;
+
+}
+
+.spot{
+    margin-left:5px;
+    height:10px;
+    width:10px;
+    border-radius:50%;
+    float:left;
+    
+}
+
+.tentaclePiece{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+    
+}
+.tentaclePiece2{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+    
+}
+.tentaclePiece3{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+    
+}
+.tentaclePiece4{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+    
+}
+.tentaclePiece5{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+    
+}
+
+
+.flapup{
+    animation:flapup .3s infinite
+
+}
+
+@keyframes flapup {
+    0%{transform:scaleY(1)scaleX(1)translateY(0px)}
+    90%{transform:scaleY(.8)scaleX(1.2)translateY(-30px);}
+    100%{transform:scaleY(.8)scaleX(1.2)translateY(-30px);}
+}
+
+.flapdown{
+    animation:flapdown .5s both
+
+}
+
+@keyframes flapdown {
+    0%{transform:scaleY(1)scaleX(1)translateY(0px)}
+   100%{transform:scaleY(.8)scaleX(1.4)translateY(-30px);}
+}
+
+
+
+
+
+
+
